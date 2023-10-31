@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <ul>
+        {% for icecream in icecreams %}
+            <li>{{ icecream }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
